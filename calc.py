@@ -2,7 +2,7 @@ print('enter operation')
 
 op = input()
 
-if op not in '+-':
+if op not in '+-*':
     print('unknown op')
 
 print('enter two numbers')
@@ -15,3 +15,8 @@ if op == '+':
     print('the sum is', a + b)
 if op == '-':
     print('the difference is', a - b)
+if op == '*':
+    c = 0
+    for i in range(a):
+        c += b
+    print('the product is', c)
