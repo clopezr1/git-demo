@@ -20,3 +20,4 @@ if op == '*':
     for i in range(a):
         c += b
     print('the product is', c)
+
