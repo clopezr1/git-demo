@@ -16,4 +16,8 @@ if op == '+':
 if op == '-':
     print('the difference is', a - b)
 if op == '*':
-    print('the product is', a * b)
+    c = 0
+    for i in range(a):
+        c += b
+    print('the product is', c)
+
