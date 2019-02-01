@@ -1,7 +1,18 @@
+print('enter operation')
+
+op = input()
+
+if op not in '+*':
+    print('unknown op')
+
 print('enter two numbers')
 
 a = int(input())
 b = int(input())
-c = a + b
 
-print('the sum is', c)
+
+if op == '+':
+    print('the sum is', a + b)
+
+if op == '*':
+    print('the product is', a * b)
