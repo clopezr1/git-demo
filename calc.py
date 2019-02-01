@@ -2,7 +2,7 @@ print('enter operation')
 
 op = input()
 
-if op not in '+-*^':
+if op not in '+-*/^':
     print('unknown op')
 
 print('enter two numbers')
@@ -22,3 +22,6 @@ if op == '*':
     print('the product is', c)
 if op == '^':
     print('a power b is', a ** b)
+if op == '/':
+    print('the quotient is', a / b)
+    
